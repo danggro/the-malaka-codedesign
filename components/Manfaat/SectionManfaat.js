@@ -4,7 +4,7 @@ import SubTitleSection from "../SubTitleSection";
 import TextSection from "../TextSection";
 import TitleSection from "../TitleSection";
 import ItemManfaat from "./ItemManfaat";
-import Book from "@/public/manfaat/Book.png";
+import BookManfaat from "@/public/manfaat/Book.png";
 
 export default function SectionManfaat() {
   return (
@@ -44,11 +44,11 @@ export default function SectionManfaat() {
           </div>
           <div className="relative flex items-end w-6/12">
             <Image
-              src={Book}
-              alt="Book"
-              className="absolute bottom-[54px] right-[98px] shadow-[0px_15px_30px_0_rgba(2,40,43,0.33)] rotate-[9deg] -z-10 rounded-[15px]"
+              src={BookManfaat}
+              alt="BookManfaat"
+              className="absolute bottom-[54px] right-[98px] shadow-[0px_15px_30px_0_rgba(2,40,43,0.33)] rotate-[9deg] rounded-[15px]"
             />
-            <div className="flex w-full justify-between items-center rounded-[20px] shadow-box bg-primary py-[30px] pl-[30px] pr-[59px] flex-shrink-0 ">
+            <div className="flex w-full relative justify-between items-center rounded-[20px] shadow-box bg-primary py-[30px] pl-[30px] pr-[59px] flex-shrink-0 ">
               <div>
                 <h4 className="text-3xl font-bold">19</h4>
                 <p className="text-sm">Jumlah Chapter</p>

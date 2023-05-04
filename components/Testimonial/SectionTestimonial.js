@@ -3,10 +3,12 @@ import SubTitleSection from "../SubTitleSection";
 import TextSection from "../TextSection";
 import TitleSection from "../TitleSection";
 
+import Testimoni from "./Testimoni";
+
 export default function SectionTestimonial() {
   return (
     <Container>
-      <section className="bg-[#EDFCFD] p-[100px] rounded-[20px]">
+      <section className="bg-[#EDFCFD] p-[100px] pb-[485px] rounded-[20px]">
         <div className="flex">
           <div className="flex-shrink-0 w-6/12">
             <TitleSection colorLine="bg-primary" colorText="text-primary">
@@ -24,6 +26,9 @@ export default function SectionTestimonial() {
           </TextSection>
         </div>
       </section>
+      <div className="left-20 top-[296px] right-20 absolute">
+        <Testimoni />
+      </div>
     </Container>
   );
 }

@@ -1,3 +1,5 @@
+import SectionBeli from "@/components/Beli/SectionBeli";
+import Footer from "@/components/Footer/Footer";
 import SectionHarga from "@/components/Harga/SectionHarga";
 import Header from "@/components/Header";
 import SectionManfaat from "@/components/Manfaat/SectionManfaat";
@@ -20,6 +22,8 @@ export default function Home() {
       <SectionHarga />
       <SectionPenulis />
       <SectionTestimonial />
+      <SectionBeli />
+      <Footer />
     </>
   );
 }

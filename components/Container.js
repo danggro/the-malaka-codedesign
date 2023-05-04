@@ -1,3 +1,3 @@
 export default function Container(props) {
-  return <div className="px-[130px]">{props.children}</div>;
+  return <div className="px-[130px] relative">{props.children}</div>;
 }

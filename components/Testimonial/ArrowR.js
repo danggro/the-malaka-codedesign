@@ -1,23 +1,23 @@
 import React from "react";
 
-function Download() {
+function ArrowR() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
+      width="20"
+      height="20"
       fill="none"
-      viewBox="0 0 24 24"
+      viewBox="0 0 20 20"
     >
       <path
-        stroke="currentColor"
+        stroke="#fff"
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth="2"
-        d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"
+        d="M4.167 10h11.666M10 4.167L15.833 10 10 15.834"
       ></path>
     </svg>
   );
 }
 
-export default Download;
+export default ArrowR;
